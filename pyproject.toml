@@ -1,0 +1,50 @@
+[tool.poetry]
+authors = ["Joseph Lai <urs_project@protonmail.com>"]
+classifiers = [
+    "Intended Audience :: Developers",
+	"Intended Audience :: Information Technology",
+	"Intended Audience :: Science/Research",
+	"Intended Audience :: Telecommunications Industry",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3 :: Only",
+	"Topic :: Communications",
+	"Topic :: Scientific/Engineering :: Information Analysis",
+	"Topic :: Scientific/Engineering :: Visualization",
+	"Topic :: Software Development",
+	"Topic :: Utilities"
+]
+description = "A comprehensive Reddit scraping command-line tool"
+documentation = "" # TODO: ADD THE LINK TO THE READTHEDOCS PAGE LATER.
+keywords = ["reddit", "scraper", "scraping", "praw", "web"]
+license = "MIT"
+maintainers = ["Joseph Lai <urs_project@protonmail.com>"]
+name = "URS"
+readme = "README.md"
+repository = "https://github.com/JosephLai241/URS"
+version = "3.3.2"
+
+[tool.poetry.dependencies]
+colorama = "^0.4.4"
+halo = "^0.0.31"
+praw = "^7.5.0"
+prettytable = "^3.3.0"
+rich = "^12.3.0"
+spinners = "^0.0.24"
+python = "^3.7"
+python-dotenv = "^0.20.0"
+wordcloud = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+coverage = "^6.3.2"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/JosephLai241/URS/issues"
+"Discussions" = "https://github.com/JosephLai241/URS/discussions"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
