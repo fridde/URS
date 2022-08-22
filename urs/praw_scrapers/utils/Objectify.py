@@ -5,7 +5,7 @@ Defining methods to create JSON serializable objects from Reddit metadata.
 """
 
 
-from urs.utils.Global import convert_time
+from utils.global_attrs import convert_time
 
 class Objectify():
     """

@@ -15,15 +15,15 @@ from colorama import (
     Style
 )
 
-from urs.Version import __version__
+from version import __version__
 
-from urs.praw_scrapers.utils.Validation import Validation
+from praw_scrapers.utils.validation import Validation
 
-from urs.utils.Global import (
+from utils.global_attrs import (
     date,
     short_cat
 )
-from urs.utils.Logger import LogError
+from utils.logger import LogError
 
 class Parser():
     """

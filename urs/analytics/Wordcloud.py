@@ -15,14 +15,14 @@ from halo import Halo
 from pathlib import Path
 from wordcloud import WordCloud
 
-from urs.analytics.utils.PrepData import (
+from analytics.utils.prep_data import (
     GetPath,
     PrepData
 )
 
-from urs.utils.Global import Status
-from urs.utils.Logger import LogAnalytics
-from urs.utils.Titles import AnalyticsTitles
+from utils.global_attrs import Status
+from utils.logger import LogAnalytics
+from utils.titles import AnalyticsTitles
 
 class SetUpWordcloud():
     """

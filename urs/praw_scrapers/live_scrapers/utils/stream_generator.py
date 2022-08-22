@@ -6,7 +6,7 @@ converts them to JSON serializable objects when saving to file.
 """
 
 
-from urs.praw_scrapers.utils.Objectify import Objectify
+from praw_scrapers.utils.objectify import Objectify
 
 class StreamGenerator():
     """

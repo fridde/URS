@@ -13,24 +13,24 @@ from colorama import (
 )
 from halo import Halo
 
-from urs.praw_scrapers.static_scrapers.Subreddit import (
+from praw_scrapers.static_scrapers.subreddit import (
     GetSortWrite,
     PrintConfirm
 )
-from urs.praw_scrapers.utils.Validation import Validation
+from praw_scrapers.utils.validation import Validation
 
-from urs.utils.Global import (
+from utils.global_attrs import (
     categories,
     confirm_settings,
     make_list_dict,
     short_cat
 )
-from urs.utils.Logger import (
+from utils.logger import (
     LogError,
     LogExport,
     LogPRAWScraper
 )
-from urs.utils.Titles import (
+from utils.titles import (
     Errors,
     PRAWTitles
 )

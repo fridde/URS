@@ -17,14 +17,14 @@ from colorama import (
 )
 from halo import Halo
 
-from urs.praw_scrapers.live_scrapers.utils.DisplayStream import DisplayStream
-from urs.praw_scrapers.live_scrapers.utils.StreamGenerator import StreamGenerator
+from praw_scrapers.live_scrapers.utils.display_stream import DisplayStream
+from praw_scrapers.live_scrapers.utils.stream_generator import StreamGenerator
 
-from urs.praw_scrapers.utils.Validation import Validation
+from praw_scrapers.utils.validation import Validation
 
-from urs.utils.DirInit import InitializeDirectory
-from urs.utils.Global import date
-from urs.utils.Titles import PRAWTitles
+from utils.dir_init import InitializeDirectory
+from utils.global_attrs import date
+from utils.titles import PRAWTitles
 
 class SaveStream():
     """

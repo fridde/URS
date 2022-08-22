@@ -31,8 +31,8 @@ import praw
 from colorama import init
 from dotenv import load_dotenv
 
-from urs.utils.Logger import LogMain
-from urs.utils.Tools import Run
+from utils.logger import LogMain
+from utils.tools import Run
 
 ### Automate sending reset sequences to turn off color changes at the end of 
 ### every print.

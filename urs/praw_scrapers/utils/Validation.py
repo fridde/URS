@@ -21,9 +21,9 @@ from prawcore import (
 )
 from prettytable import PrettyTable
 
-from urs.utils.Global import Status
-from urs.utils.Logger import LogError
-from urs.utils.Titles import Errors
+from utils.global_attrs import Status
+from utils.logger import LogError
+from utils.titles import Errors
 
 class Validation():
     """

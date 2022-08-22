@@ -15,24 +15,24 @@ from colorama import (
 from halo import Halo
 from prawcore import PrawcoreException
 
-from urs.praw_scrapers.utils.Objectify import Objectify
-from urs.praw_scrapers.utils.Validation import Validation
+from praw_scrapers.utils.objectify import Objectify
+from praw_scrapers.utils.validation import Validation
 
-from urs.utils.Cli import GetPRAWScrapeSettings
-from urs.utils.Export import (
+from utils.cli import GetPRAWScrapeSettings
+from utils.export import (
     Export,
     NameFile
 )
-from urs.utils.Global import (
+from utils.global_attrs import (
     convert_time,
     make_none_dict
 )
-from urs.utils.Logger import (
+from utils.logger import (
     LogError,
     LogExport, 
     LogPRAWScraper
 )
-from urs.utils.Titles import PRAWTitles
+from utils.titles import PRAWTitles
 
 class ProcessInteractions():
     """

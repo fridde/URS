@@ -13,14 +13,14 @@ from colorama import (
     Style
 )
 
-from urs.utils.DirInit import InitializeDirectory
-from urs.utils.Global import (
+from utils.dir_init import InitializeDirectory
+from utils.global_attrs import (
     categories,
     convert_time,
     date,
     short_cat
 )
-from urs.utils.Titles import Errors
+from utils.titles import Errors
 
 class LogMain():
     """

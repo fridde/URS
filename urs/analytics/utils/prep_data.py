@@ -9,9 +9,9 @@ import json
 
 from pathlib import Path
 
-from urs.utils.DirInit import InitializeDirectory
-from urs.utils.Global import Status
-from urs.utils.Logger import LogAnalyticsErrors
+from utils.dir_init import InitializeDirectory
+from utils.global_attrs import Status
+from utils.logger import LogAnalyticsErrors
 
 class GetPath():
     """

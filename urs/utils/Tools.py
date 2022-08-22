@@ -7,24 +7,24 @@ Running all tools that URS has to offer.
 
 import logging
 
-from urs.analytics.Frequencies import GenerateFrequencies
-from urs.analytics.Wordcloud import GenerateWordcloud
+from analytics.frequencies import GenerateFrequencies
+from analytics.wordcloud import GenerateWordcloud
 
-from urs.praw_scrapers.live_scrapers.Livestream import Livestream
+from praw_scrapers.live_scrapers.livestream import Livestream
 
-from urs.praw_scrapers.static_scrapers.Basic import RunBasic
-from urs.praw_scrapers.static_scrapers.Comments import RunComments
-from urs.praw_scrapers.static_scrapers.Redditor import RunRedditor
-from urs.praw_scrapers.static_scrapers.Subreddit import RunSubreddit
+from praw_scrapers.static_scrapers.basic import RunBasic
+from praw_scrapers.static_scrapers.comments import RunComments
+from praw_scrapers.static_scrapers.redditor import RunRedditor
+from praw_scrapers.static_scrapers.subreddit import RunSubreddit
 
-from urs.praw_scrapers.utils.Validation import Validation
+from praw_scrapers.utils.validation import Validation
 
-from urs.utils.Cli import (
+from utils.cli import (
     CheckCli,
     Parser
 )
-from urs.utils.Titles import MainTitle
-from urs.utils.Utilities import DateTree
+from utils.titles import MainTitle
+from utils.utilities import DateTree
 
 class Run():
     """

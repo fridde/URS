@@ -10,8 +10,8 @@ import json
 
 from json import JSONEncoder
 
-from urs.utils.DirInit import InitializeDirectory
-from urs.utils.Global import (
+from utils.dir_init import InitializeDirectory
+from utils.global_attrs import (
     categories,
     date,
     short_cat

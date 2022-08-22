@@ -20,11 +20,11 @@ from pathlib import (
 from rich.filesize import decimal
 from rich.tree import Tree
 
-from urs.utils.Global import (
+from utils.global_attrs import (
     date,
     Status
 )
-from urs.utils.Titles import Errors
+from utils.titles import Errors
 
 class DateTree():
     """
